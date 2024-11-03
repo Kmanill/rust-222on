@@ -1,4 +1,4 @@
-use std::env;
+use std::env; //Simple Array Sum
 use std::fs::File;
 use std::io::{self, BufRead, Write};
 
@@ -23,4 +23,5 @@ fn main() {
     let result = simpleArraySum(&ar);
 
     writeln!(&mut fptr, "{}", result).ok();
+
 }
