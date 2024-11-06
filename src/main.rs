@@ -15,6 +15,22 @@ mod const_generics;
 mod traits;
 mod trait_object;
 mod advance_traits;
+mod String11;
+mod Vector11;
+mod HashMap11;
+mod ConvertbyAs12;
+mod FromInto12;
+mod r#Others12
+mod r#panic13
+mod r#resultAnd13
+mod r#PackageandCrate14
+mod r#Module14
+mod r#Module14
+mod Useandpub14;
+mod comments_and_docs;
+mod println_and_format;
+mod debug_and_display;
+mod formating;
 
 fn main() {
     println!("Hello, world!");
